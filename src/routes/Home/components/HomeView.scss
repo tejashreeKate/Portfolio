@@ -1,0 +1,48 @@
+.duck {
+  display: block;
+  width: 120px;
+  margin: 1.5rem auto;
+}
+.navBarTop{
+	background-color: #000;
+	color:#fff;
+	a{
+		color:#fff;
+	}
+}
+.homeContainer{
+	background: url('../assets/homeBg.jpg') no-repeat center; 
+	background-size: 100%;
+	width: 100%;
+	height: 100vh;
+}
+.homeText{
+    position: relative;
+    top: 29%;
+    font-size: 36px;
+    left: 24%;
+    span{
+    	font-size: 26px;
+    	font-style: italic;
+    	color: #fff;
+    }
+}
+.sectionTitle{
+	font-size: 26px;
+    font-weight: 600;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+.whatIDoSection{
+  height: 300px;
+}
+.skillsSection{
+  background-color: #666;
+  color:#fff;
+}
+.chartDiv{
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  height: 300px; 
+}
