@@ -9,19 +9,24 @@ var options = {
     plotOptions: {
         pie: {
             shadow: false,
-            center: ['50%', '50%']
+            center: ['50%', '50%'],
+            colors:['#a5223f']
         }
     },
     tooltip: {
         valueSuffix: '%'
     },
     title:{
-      text:null
+      text:'',
+      floating:true,
+      verticalAlign:'middle',
+      style:{
+        fontSize:'12px'
+      }
     },
     series: [{
         name: 'Total',
         size: '60%',
-        color: '#ffffff',
         distance: -30
         
     }, {
@@ -30,7 +35,8 @@ var options = {
         innerSize: '92%',
         dataLabels:{
           enabled:false
-        }
+        },
+        color:'#a5223f'
     }],
     credits:{
       enabled:false
@@ -55,16 +61,18 @@ export default class DonutChart extends React.Component {
         options
       );
     this.chart.series[1].setData(this.props.data)
+    this.chart.setTitle({text:this.props.data[0].y+'%'})
 
   }
   componentWillReceiveProps(next){
     console.log(next)
     this.chart.series[1].setData(next.data)
+    this.chart.setTitle({text:next.data[0].y})
   }
   render() {
       return React.createElement('div', {
         id: this.props.container,
-        style:{"width":"100%"}
+        style:{"width":"85%"}
       });
     }
   }
