@@ -14,6 +14,7 @@ class App extends React.Component {
   }
 
   render () {
+      console.log(process.env)
     return (
       <Provider store={this.props.store}>
         <div style={{ height: '100%' }}>

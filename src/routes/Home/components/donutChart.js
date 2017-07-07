@@ -11,10 +11,18 @@ var options = {
             shadow: false,
             center: ['50%', '50%'],
             colors:['#a5223f']
+        },
+        series:{
+          states:{
+            hover:{
+              enabled:false
+            }
+          }
         }
     },
     tooltip: {
-        valueSuffix: '%'
+        valueSuffix: '%',
+        enabled:false
     },
     title:{
       text:'',
@@ -27,7 +35,10 @@ var options = {
     series: [{
         name: 'Total',
         size: '60%',
-        distance: -30
+        distance: -30,
+        dataLabels:{
+          enabled:false
+        }
         
     }, {
         name: 'Value',

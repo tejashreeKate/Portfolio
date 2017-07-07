@@ -9,7 +9,10 @@ import './HomeView.scss'
 export default class HomeView extends React.Component{
 	scroll(id){
 		let elem = document.getElementById(id)
-		elem.scrollIntoView({behaviour:"smooth"})
+		//elem.scrollIntoView({behaviour:"smooth"})
+		$('html, body').animate({
+        	scrollTop: $('#'+id).offset().top
+    	}, 500);
 	}
 	render(){
 		return(
