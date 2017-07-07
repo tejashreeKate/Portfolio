@@ -12,9 +12,9 @@
     "test:watch": "npm test -- --watch",
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
-    "deploy" : "npm run build&&gh-pages -d build"
+    "deploy": "npm run build&&gh-pages -d dist"
   },
-  "homepage":"https://tejashreekate.github.io/Portfolio",
+  "homepage": "https://tejashreekate.github.io/Portfolio",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tejashreeKate/Portfolio.git"
@@ -55,7 +55,7 @@
     "chalk": "^1.1.3",
     "codecov": "^2.2.0",
     "connect-history-api-fallback": "^1.3.0",
-    "cross-env": "^5.0.0",
+    "cross-env": "^5.0.1",
     "css-loader": "^0.28.1",
     "dirty-chai": "^1.2.2",
     "enzyme": "^2.8.2",
