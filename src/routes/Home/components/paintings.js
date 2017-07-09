@@ -7,8 +7,9 @@ import Paint5 from '../assets/paintings/paint5.jpg'
 
 export default class Paintings extends React.Component{
 	render(){
+		console.log(this.props)
 		return(
-			<div className="container-fluid paintingSection">
+			<div className={"container-fluid paintingSection "+(this.props.show?'show':'hide')}>
 				<div className="row">
 					<div className="col-md-6 col-sm-6">
 						<div className="paintImg">

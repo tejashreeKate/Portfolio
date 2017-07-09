@@ -21,12 +21,13 @@
 }
 .homeContainer{
 	background: url('../assets/homeBg.jpg') no-repeat center; 
-	background-size: 100%;
+	background-size: cover;
 	width: 100%;
 	height: 100vh;
 }
 .homeText{
     position: relative;
+    display: inline-block;
     top: 29%;
     font-size: 36px;
     left: 24%;
@@ -75,6 +76,9 @@
   background-color: #666;
   color: #fff;
   min-height: 300px;
+  a{
+    color: #fff;
+  }
   .eventTimeline{
     min-height: 100px;
     width: 50%;
@@ -92,10 +96,17 @@
   .eventCircle{
     width: 25px;
     height: 25px;
-    background-color: #a5223f;
+    background-color: #FF5252;
     border-radius: 50%;
     float: left;
-    border:1px solid #fff;
+  }
+  .eventCircle:after{
+    width: 2px;
+    height: 50px;
+    content: '';
+    display: block;
+    background-color: #fff;
+    margin-left: 10px;
   }
   .verticalLine{
     width: 2px;
@@ -107,7 +118,7 @@
   }
   .eventCard{
     width: 80%;
-    height: 65px;
+    min-height: 65px;
     color: #000;
     font-size: 10px;
     text-align: justify;
@@ -141,20 +152,28 @@
   .projectDiv{
     width: 150px;
     height: 150px;
-    background-color: #a5223f;
+    background-color: #FF5252;
     padding: 30px;
     opacity: 0.6;
     color: #fff;
     margin:auto;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 50%;
   }
   .projectDiv1{
     width: 150px;
     height: 150px;
-    background-color: #250793;
+    background-color: #2196F3;
     padding: 30px;
     opacity: 0.6;
     color: #fff;
     margin: auto;
+    cursor: pointer;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 50%;
   }
   .subTitle{
     text-align: left;
@@ -221,3 +240,19 @@
   }
 }
 
+.hide{
+  display: none;
+}
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .homeText{
+      top:10%;
+      left: 0;
+    }
+    .skillsSection{
+      max-height: 700px;
+      overflow-y: auto;
+    }
+}

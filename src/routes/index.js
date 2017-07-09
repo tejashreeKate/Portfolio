@@ -6,9 +6,9 @@ import Home from './Home'
 
 /*  Note: Instead of using JSX, we recommend using react-router
     PlainRoute objects to build route definitions.   */
-
+console.log(process)
 export const createRoutes = (store) => ({
-  path        : '/Portfolio/',
+  path        : '/',
   component   : CoreLayout,
   indexRoute  : Home,
   childRoutes:[

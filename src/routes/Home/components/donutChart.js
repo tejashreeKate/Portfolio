@@ -76,7 +76,6 @@ export default class DonutChart extends React.Component {
 
   }
   componentWillReceiveProps(next){
-    console.log(next)
     this.chart.series[1].setData(next.data)
     this.chart.setTitle({text:next.data[0].y})
   }

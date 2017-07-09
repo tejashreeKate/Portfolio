@@ -14,7 +14,6 @@ export default class Timeline extends React.Component{
 						<div className="eventCircle">
 							<i className="fa fa-briefcase"></i>
 						</div>
-						<div className="verticalLine"></div>
 						<div className="eventCard">
 							<span className="title">Siemens</span><br/>
 							<span>Web and Mobile tool development intern</span>
@@ -30,13 +29,11 @@ export default class Timeline extends React.Component{
 						<div className="eventCircle">
 							<i className="fa fa-graduation-cap"></i>
 						</div>
-						<div className="verticalLine"></div>
 					</div>
 					<div className="event expCard">
 						<div className="eventCircle">
 							<i className="fa fa-briefcase"></i>
 						</div>
-						<div className="verticalLine"></div>
 						<div className="eventCard">
 							<span className="title">New Jersey Institute of Technology</span><br/>
 							<span>Research Assistant</span>
@@ -47,10 +44,9 @@ export default class Timeline extends React.Component{
 						<div className="eventCircle">
 							<i className="fa fa-briefcase"></i>
 						</div>
-						<div className="verticalLine"></div>
 						<div className="eventCard">
 							<span className="title">Tata Consultancy Services</span><br/>
-							<span>Software Engineer</span>
+							<span>Web Developer</span>
 							<br/><span>(Jan 2015 - Sep 2015)</span>
 						</div>
 					</div>
@@ -63,7 +59,6 @@ export default class Timeline extends React.Component{
 						<div className="eventCircle">
 							<i className="fa fa-graduation-cap"></i>
 						</div>
-						<div className="verticalLine"></div>
 					</div>
 					<p style={{"textAlign":"justify"}}>...</p>
 				</div>

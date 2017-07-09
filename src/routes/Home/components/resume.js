@@ -6,10 +6,10 @@ import HomePage from '../assets/portfolio/homePag.png'
 export default class Resume extends React.Component{
 	render(){
 		return(
-			<div className="container-fluid paintingSection">
+			<div className={"container-fluid paintingSection "+(this.props.show?'show':'hide')}>
 				<p className="sectionTitle">My Online Portfolio</p>
-				<p style={{"textAlign":"justify"}}>Online portfolio is something where you get a chance to introduce yourself. I always wanted my website to be simple and catchy.
-				So I first tried sketching down my thoughts. Then I converted it into design using Photoshop. It gave me a base to start with the development.
+				<p style={{"textAlign":"justify"}}>Online portfolio is something where you get a chance to introduce yourself. I always wanted my website to be somethings simple and catchy.
+				So the process I followed for creating this website was - I first tried sketching down my thoughts. Then I converted it into design using Photoshop. It gave me a base to start with the development.
 				This website is developed using HTML, CSS and React and deployed on github pages.
 				Also I had my old version of online portfolio: <a href="https://tejashreekate.github.io/resume">https://tejashreekate.github.io/resume</a>. 
 				Here are some of the versions of the mockups I tried to design for my website

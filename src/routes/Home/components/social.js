@@ -10,19 +10,17 @@ export default class Social extends React.Component{
 						<div>
 							<i className="fa fa-3x fa-envelope"></i>
 						</div>
-						<p>teju.kate@gmail.com<br/>/tpk22@njit.edu</p>
+						<p>teju.kate@gmail[.]com<br/>tpk22@njit[.]edu</p>
 					</div>
 					<div className="col-md-4 col-sm-4">
 						<div>
-							<i className="fa fa-3x fa-github-square"></i>
+							<a href="https://github.com/tejashreeKate"><i className="fa fa-4x fa-github-square"></i></a>
 						</div>
-						<p>https://github.com/tejashreeKate</p>
 					</div>
 					<div className="col-md-4 col-sm-4">
 						<div>
-							<i className="fa fa-3x fa-linkedin-square"></i>
+							<a href="https://www.linkedin.com/in/tejashree-kate-4a166130/"><i className="fa fa-4x fa-linkedin-square"></i></a>
 						</div>
-						<p>https://www.linkedin.com/in/tejashree-kate-4a166130/</p>
 					</div>
 				</div>
 			</div>

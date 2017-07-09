@@ -4,17 +4,30 @@ import Skills from './skills.js'
 import Timeline from './timeline.js'
 import Work from './work.js'
 import Social from './social.js'
+import Paintings from './paintings.js'
+import Resume from './resume.js'
 import './HomeView.scss'
 
 export default class HomeView extends React.Component{
+	constructor(props){
+		super(props)
+		this.state = {
+			showPage:''
+		}
+	}
 	scroll(id){
 		let elem = document.getElementById(id)
 		//elem.scrollIntoView({behaviour:"smooth"})
 		$('html, body').animate({
         	scrollTop: $('#'+id).offset().top
     	}, 500);
+    	this.setState({showPage:''})
+	}
+	showPage(val){
+		this.setState({showPage:val})
 	}
 	render(){
+		console.log(this.state)
 		return(
 			<div>
 				<div>
@@ -33,17 +46,21 @@ export default class HomeView extends React.Component{
 					  </li>
 					</ul>
 				</div>
-				<div className="homeContainer" id="home">
-					<div className="homeText">
-						<p><b>Hey, I m Tejashree<br/>
-						<span>Web Developer</span></b></p>
+				<div className={this.state.showPage==''?'show':'hide'}>
+					<div className="homeContainer" id="home">
+						<div className="homeText">
+							<p><b>Hey, I m Tejashree<br/>
+							<span>Web Developer</span></b></p>
+						</div>
 					</div>
+					<WhatIDo />
+					<Skills />
+					<Timeline />
+					<Work showPage={this.showPage.bind(this)}/>
+					<Social />
 				</div>
-				<WhatIDo />
-				<Skills />
-				<Timeline />
-				<Work />
-				<Social />
+				<Paintings show={this.state.showPage=='paintings'?true:false}/>
+				<Resume show={this.state.showPage=='resume'?true:false}/>
 				<a href="javascript:" id="return-to-top"><i className="fa fa-chevron-up"></i></a>
 			</div>
 

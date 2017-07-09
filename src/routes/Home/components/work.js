@@ -1,6 +1,9 @@
 import React from 'react'
 
 export default class Work extends React.Component{
+	showPage(val){
+		this.props.showPage(val)
+	}
 	render(){
 		return(
 			<div className="container-fluid workSection" id="work">
@@ -18,10 +21,10 @@ export default class Work extends React.Component{
 				<p className="subTitle">Personal Projects</p>
 				<div className="row projectContainer">
 					<div className="col-md-4 col-sm-4">
-						<a href="/resume"><div className="projectDiv1">Online Portfolio</div></a>
+						<div className="projectDiv1" onClick={this.showPage.bind(this,'resume')}>Online Portfolio</div>
 					</div>
 					<div className="col-md-4 col-sm-4">
-						<a href="/paintings"><div className="projectDiv1">Check out some of my paintings</div></a>
+						<div className="projectDiv1" onClick={this.showPage.bind(this,'paintings')}>Check out some of my paintings</div>
 					</div>
 					<div className="col-md-4 col-sm-4">
 {/*						<div className="projectDiv1">Design Mockups</div>

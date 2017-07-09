@@ -4,15 +4,15 @@ export default class Skills extends React.Component{
 	constructor(props) {
     	super(props);
         this.state = {
-        	html:[{name:'HTML',y:90,color:'#a5223f'},{name:'',y:10,color:'#ddd'}],
+        	html:[{name:'HTML',y:90,color:'#FF5252'},{name:'',y:10,color:'#ddd'}],
         	js:[{name:'JS',y:80,color:'#250793'},{name:'',y:20,color:'#ddd'}],
-        	design:[{name:'Design',y:70,color:'#a5223f'},{name:'',y:30,color:'#ddd'}],
+        	design:[{name:'Design',y:70,color:'#FF5252'},{name:'',y:30,color:'#ddd'}],
         	prog:[{name:'prog',y:80,color:'#250793'},{name:'',y:20,color:'#ddd'}],
-        	da:[{name:'da',y:60,color:'#a5223f'},{name:'',y:40,color:'#ddd'}],
+        	da:[{name:'da',y:60,color:'#FF5252'},{name:'',y:40,color:'#ddd'}],
         	angular:[{name:'angular',y:85,color:'#250793'},{name:'',y:15,color:'#ddd'}],
-        	react:[{name:'react',y:85,color:'#a5223f'},{name:'',y:15,color:'#ddd'}],
+        	react:[{name:'react',y:85,color:'#FF5252'},{name:'',y:15,color:'#ddd'}],
         	sql:[{name:'sql',y:70,color:'#250793'},{name:'',y:30,color:'#ddd'}],
-        	agile:[{name:'agile',y:70,color:'#a5223f'},{name:'',y:30,color:'#ddd'}]
+        	agile:[{name:'agile',y:70,color:'#FF5252'},{name:'',y:30,color:'#ddd'}]
 
         }
 

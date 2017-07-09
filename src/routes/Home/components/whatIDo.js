@@ -11,7 +11,7 @@ export default class WhatIDo extends React.Component{
 				<div className="">
 					<div className="row">
 						<div className="col-md-4 col-sm-4">
-							<div className="imgDiv">
+							<div className="imgDiv" style={{"height":"130px"}}>
 								<img src={IdeasImg} width="100%" />
 							</div>
 							<p>I can collaborate with the stakeholders and customers to help transform an idea into picture</p>
