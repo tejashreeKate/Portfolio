@@ -7,8 +7,8 @@ export default class Timeline extends React.Component{
 				<div className="sectionTitle">My Timeline</div>
 				<div className="eventTimeline">
 					<div className="row">
-						<div className="col-md-6 col-sm-6">Education</div>
-						<div className="col-md-6 col-sm-6">Experience</div>
+						<div className="col-md-6 col-sm-6 subTitle">Education</div>
+						<div className="col-md-6 col-sm-6 subTitle">Experience</div>
 					</div><br/>
 					<div className="event expCard">
 						<div className="eventCircle">
@@ -60,7 +60,7 @@ export default class Timeline extends React.Component{
 							<i className="fa fa-graduation-cap"></i>
 						</div>
 					</div>
-					<p style={{"textAlign":"justify"}}>...</p>
+					<p style={{"textAlign":"center"}}>...</p>
 				</div>
 			</div>
 		)

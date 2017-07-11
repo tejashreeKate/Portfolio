@@ -8,7 +8,7 @@ import Home from './Home'
     PlainRoute objects to build route definitions.   */
 console.log(process)
 export const createRoutes = (store) => ({
-  path        : '/Portfolio/',
+  path        : '/',
   component   : CoreLayout,
   indexRoute  : Home,
   childRoutes:[

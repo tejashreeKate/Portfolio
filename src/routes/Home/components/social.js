@@ -16,11 +16,13 @@ export default class Social extends React.Component{
 						<div>
 							<a href="https://github.com/tejashreeKate"><i className="fa fa-4x fa-github-square"></i></a>
 						</div>
+						<p>Github</p>
 					</div>
 					<div className="col-md-4 col-sm-4">
 						<div>
 							<a href="https://www.linkedin.com/in/tejashree-kate-4a166130/"><i className="fa fa-4x fa-linkedin-square"></i></a>
 						</div>
+						<p>LinkedIn</p>
 					</div>
 				</div>
 			</div>
