@@ -6,12 +6,12 @@ import CodeImg from '../assets/code.png'
 export default class WhatIDo extends React.Component{
 	render(){
 		return(
-			<div className="container-fluid whatIDoSection" id="whatIDo">
-				<p className="sectionTitle">Here's what can I do</p>
+			<div className="container-fluid whatIDoSection" >
+				<p className="sectionTitle">Here's what I can do</p>
 				<div className="">
 					<div className="row">
 						<div className="col-md-4 col-sm-4">
-							<div className="imgDiv" style={{"height":"130px"}}>
+							<div className="imgDiv" style={{"height":"130px","width":"80px"}}>
 								<img src={IdeasImg} width="100%" />
 							</div>
 							<p>I can collaborate with the stakeholders and customers to help transform an idea into picture</p>

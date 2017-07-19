@@ -13,24 +13,24 @@ export default class Work extends React.Component{
 					<div className="col-md-3 col-sm-3">
 						<a href="https://web.njit.edu/~tpk22/iCourseAssist/frame.html">
 							<div className="projectDiv"><i className="fa fa-2x fa-link"></i><br/>
-							iCourseFinder App Design</div>
+							iCourseFinder App Design [Axure]</div>
 							</a>
 					</div>
 					<div className="col-md-3 col-sm-3">
 						<a href="https://public.tableau.com/views/FinalpptWithFeedback_0/Sheet1World?:embed=y&:display_count=yes">
 						<div className="projectDiv"><i className="fa fa-2x fa-bar-chart"></i><br/>
-						Data Visulaisation (Tableau)</div></a>
+						Data Visulaisation [Tableau]</div></a>
 					</div>
 					<div className="col-md-3 col-sm-3">
 						<a href="https://github.com/tejashreeKate/SparseMatrix-DataType">
 							<div className="projectDiv"><i className="fa fa-2x fa-github-square"></i><br/>
-							Sparse Matrix Data Type</div>
+							Sparse Matrix Data Type [Java]</div>
 						</a>
 					</div>
 					<div className="col-md-3 col-sm-3">
 						<a href="https://github.com/tejashreeKate/SentimentAnalysis">
 							<div className="projectDiv"><i className="fa fa-2x fa-github-square"></i><br/>
-							Sentiment <br/>Analysis</div>
+							Sentiment <br/>Analysis <br/> [R]</div>
 						</a>
 					</div>
 				</div>
@@ -39,7 +39,7 @@ export default class Work extends React.Component{
 					<div className="col-md-3 col-sm-3">
 						<div className="projectDiv1" onClick={this.showPage.bind(this,'resume')}>
 						<i className="fa fa-2x fa-globe"></i><br/>
-						Online Portfolio</div>
+						Online Portfolio [React]</div>
 					</div>
 					<div className="col-md-3 col-sm-3">
 						<div className="projectDiv1" onClick={this.showPage.bind(this,'paintings')}>

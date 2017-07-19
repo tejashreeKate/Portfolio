@@ -6,6 +6,7 @@ import Work from './work.js'
 import Social from './social.js'
 import Paintings from './paintings.js'
 import Resume from './resume.js'
+import AboutMe from './aboutMe.js'
 import './HomeView.scss'
 
 export default class HomeView extends React.Component{
@@ -54,6 +55,7 @@ export default class HomeView extends React.Component{
 						</div>
 					</div>
 					<WhatIDo />
+					<AboutMe />
 					<Skills />
 					<Timeline />
 					<Work showPage={this.showPage.bind(this)}/>

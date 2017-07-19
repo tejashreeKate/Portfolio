@@ -7,10 +7,10 @@ export default class Skills extends React.Component{
         	html:[{name:'HTML',y:90,color:'#FF5252'},{name:'',y:10,color:'#ddd'}],
         	js:[{name:'JS',y:80,color:'#250793'},{name:'',y:20,color:'#ddd'}],
         	design:[{name:'Design',y:70,color:'#FF5252'},{name:'',y:30,color:'#ddd'}],
-        	prog:[{name:'prog',y:80,color:'#250793'},{name:'',y:20,color:'#ddd'}],
-        	da:[{name:'da',y:60,color:'#FF5252'},{name:'',y:40,color:'#ddd'}],
-        	angular:[{name:'angular',y:85,color:'#250793'},{name:'',y:15,color:'#ddd'}],
-        	react:[{name:'react',y:85,color:'#FF5252'},{name:'',y:15,color:'#ddd'}],
+        	prog:[{name:'prog',y:80,color:'#FF5252'},{name:'',y:20,color:'#ddd'}],
+        	da:[{name:'da',y:60,color:'#250793'},{name:'',y:40,color:'#ddd'}],
+        	angular:[{name:'angular',y:85,color:'#FF5252'},{name:'',y:15,color:'#ddd'}],
+        	react:[{name:'react',y:85,color:'#250793'},{name:'',y:15,color:'#ddd'}],
         	sql:[{name:'sql',y:70,color:'#250793'},{name:'',y:30,color:'#ddd'}],
         	agile:[{name:'agile',y:70,color:'#FF5252'},{name:'',y:30,color:'#ddd'}]
 
@@ -22,12 +22,6 @@ export default class Skills extends React.Component{
 			<div className="container-fluid skillsSection">
 				<p className="sectionTitle">Skills</p>
 				<div className="chartDiv">
-					<p className="skillsText">Hi, I'm Tejashree with a professional experience of around 4 years. I have successfully delivered
-					multiple projects from web to mobile, serving different roles and responsibilites at my organization. 
-					I have a diverse skill set ranging from design to development. I also got a chance to extend my knowledge to Data Analytics through my 
-					learnings at the Masters program. You can expect hard work, sincerity, dedication, quick turnaround time from me and ofcourse a wow factor in my work.
-					 If your are looking to hire, you can get my contact details here.
-					</p>
 					<div className="row">
 						<div className="col-md-1 col-sm-1"></div>
 						<div className="col-md-2 col-sm-2">
@@ -48,7 +42,7 @@ export default class Skills extends React.Component{
 						</div>
 						<div className="col-md-2 col-sm-2">
 							<DonutChart container='chart3' data={this.state.prog}/>
-							<p>Programming</p>
+							<p>Programming<br/><span className="subTitle">[Java, Asp.Net, Node JS, C]</span></p>
 						</div>
 						<div className="col-md-1 col-sm-1"></div>
 					</div>
@@ -60,11 +54,11 @@ export default class Skills extends React.Component{
 						</div>
 						<div className="col-md-2 col-sm-2">
 							<DonutChart container='chart5' data={this.state.design}/>
-							<p>Design</p>
+							<p>Design<br/><span className="subTitle">[Axure, Photoshop, Invision]</span></p>
 						</div>
 						<div className="col-md-2 col-sm-2">
 							<DonutChart container='chart4' data={this.state.da}/>
-							<p>Data Analytics Skills</p>
+							<p>Data Analytics<br/><span className="subTitle">[Tableau, R, Rapid Miner, SAP Net Weaver]</span></p>
 						</div>
 						<div className="col-md-2 col-sm-2">
 							<DonutChart container='chart8' data={this.state.agile}/>
