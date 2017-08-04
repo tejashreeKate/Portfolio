@@ -14,7 +14,7 @@ export default class WhatIDo extends React.Component{
 							<div className="imgDiv" style={{"height":"130px","width":"80px"}}>
 								<img src={IdeasImg} width="100%" />
 							</div>
-							<p>I can collaborate with the stakeholders and customers to help transform an idea into picture</p>
+							<p className="whatIDoText">I can collaborate with the stakeholders and customers to help transform an idea into picture</p>
 						</div>
 						<div className="col-md-4 col-sm-4">
 							<div className="imgDiv" style={{"width":"130px"}}>
@@ -26,7 +26,7 @@ export default class WhatIDo extends React.Component{
 							<div className="imgDiv">
 								<img src={CodeImg} width="100%" />
 							</div>
-							<p>I develop web/mobile applications using HTML, CSS and JS or using frameworks like React,Angular. After all, this is where the magic happens</p>
+							<p className="whatIDoText">I develop web/mobile applications using HTML, CSS and JS or using frameworks like React,Angular. After all, this is where the magic happens</p>
 						</div>
 					</div>
 				</div>
