@@ -34,6 +34,20 @@ export default class Work extends React.Component{
 						</a>
 					</div>
 				</div>
+				<div className="row projectContainer">
+					<div className="col-md-3 col-sm-3">
+						<a href="https://github.com/tejashreeKate/AprioriAlgo">
+							<div className="projectDiv"><i className="fa fa-2x fa-github-square"></i><br/>
+							Apriori Implementation [R]</div>
+						</a>
+					</div>
+					<div className="col-md-3 col-sm-3">
+						<a href="https://github.com/tejashreeKate/SupervisedDataMining">
+							<div className="projectDiv"><i className="fa fa-2x fa-github-square"></i><br/>
+							Supervised Learning [R]</div>
+							</a>
+					</div>
+				</div>
 				<p className="subTitle">Personal Projects</p>
 				<div className="row projectContainer">
 					<div className="col-md-3 col-sm-3">
