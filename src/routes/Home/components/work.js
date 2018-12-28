@@ -19,7 +19,7 @@ export default class Work extends React.Component{
 					<div className="col-md-3 col-sm-3">
 						<a href="https://public.tableau.com/views/FinalpptWithFeedback_0/Sheet1World?:embed=y&:display_count=yes">
 						<div className="projectDiv"><i className="fa fa-2x fa-bar-chart"></i><br/>
-						Data Visulaisation [Tableau]</div></a>
+						Data Visualisation [Tableau]</div></a>
 					</div>
 					<div className="col-md-3 col-sm-3">
 						<a href="https://github.com/tejashreeKate/SparseMatrix-DataType">

@@ -16,6 +16,16 @@ export default class Timeline extends React.Component{
 						</div>
 						<div className="eventCard expCard">
 							<span className="title">Siemens</span><br/>
+							<span><b>Software Developer</b></span>
+							<br/><span>(Feb 2018 - Current)</span>
+						</div>
+					</div>
+					<div className="event">
+						<div className="eventCircle">
+							<i className="fa fa-briefcase"></i>
+						</div>
+						<div className="eventCard expCard">
+							<span className="title">Siemens</span><br/>
 							<span><b>Web and Mobile tool development intern</b></span>
 							<br/><span>(May 2017 - Current)</span>
 							<ul>
